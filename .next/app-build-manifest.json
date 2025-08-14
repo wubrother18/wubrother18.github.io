@@ -24,6 +24,13 @@
       "static/chunks/972-a1597467b2f45725.js",
       "static/chunks/app/page-363a509fabee2cc9.js"
     ],
+    "/about/page": [
+      "static/chunks/webpack-d8e1dcb7276473fc.js",
+      "static/chunks/fd9d1056-88c8a1669018f964.js",
+      "static/chunks/117-4b4a8d64fdf09fbb.js",
+      "static/chunks/main-app-8ae4d0e8db0dd9c4.js",
+      "static/chunks/app/about/page-4abe8a170b9f67b1.js"
+    ],
     "/contact/page": [
       "static/chunks/webpack-d8e1dcb7276473fc.js",
       "static/chunks/fd9d1056-88c8a1669018f964.js",
@@ -38,13 +45,6 @@
       "static/chunks/main-app-8ae4d0e8db0dd9c4.js",
       "static/chunks/972-a1597467b2f45725.js",
       "static/chunks/app/portfolio/page-50470a3f11cedef3.js"
-    ],
-    "/about/page": [
-      "static/chunks/webpack-d8e1dcb7276473fc.js",
-      "static/chunks/fd9d1056-88c8a1669018f964.js",
-      "static/chunks/117-4b4a8d64fdf09fbb.js",
-      "static/chunks/main-app-8ae4d0e8db0dd9c4.js",
-      "static/chunks/app/about/page-4abe8a170b9f67b1.js"
     ],
     "/portfolio/linggen/page": [
       "static/chunks/webpack-d8e1dcb7276473fc.js",
