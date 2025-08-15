@@ -1,5 +1,0 @@
-User-Agent: *
-Allow: /
-
-Host: https://wubrother18.github.io
-Sitemap: https://wubrother18.github.io/sitemap.xml

@@ -9,6 +9,7 @@
 
 html, body {
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -65,15 +66,32 @@ body {
   filter: blur(40px);
   opacity: 0.35;
   pointer-events: none;
+  display: none;
 }
+
+@media (min-width: 768px) {
+  .blob {
+    display: block;
+  }
+  .blob-1, .blob-2, .blob-3 {
+    animation: float 12s ease-in-out infinite;
+  }
+  .blob-2 {
+    animation-delay: 1.5s;
+  }
+  .blob-3 {
+    animation-delay: 3s;
+  }
+}
+
 .blob-1 { width: 420px; height: 420px; background: #38bdf8; top: -120px; left: -80px; border-radius: 40% 60% 50% 50%/60% 40% 60% 40%; }
 .blob-2 { width: 380px; height: 380px; background: #f472b6; bottom: 10%; right: -120px; border-radius: 60% 40% 50% 50%/40% 60% 40% 60%; }
 .blob-3 { width: 320px; height: 320px; background: #fde047; top: 25%; right: 10%; border-radius: 50% 50% 40% 60%/50% 50% 60% 40%; }
 
 /* Float animation for blobs */
-.blob-1, .blob-2, .blob-3 { animation: float 12s ease-in-out infinite; }
+/* .blob-1, .blob-2, .blob-3 { animation: float 12s ease-in-out infinite; }
 .blob-2 { animation-delay: 1.5s; }
-.blob-3 { animation-delay: 3s; }
+.blob-3 { animation-delay: 3s; } */
 @keyframes float {
   0%, 100% { transform: translateY(0) scale(1); }
   50% { transform: translateY(-16px) scale(1.02); }
